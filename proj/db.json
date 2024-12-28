@@ -1,0 +1,438 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "BanQuet Hall",
+      "location": "Ram Nagar, Coimbatore",
+      "rating": 8.5,
+      "reviewCount": 1717,
+      "image": "https://th.bing.com/th/id/OIP.oafyp8acjfnRDCIN0FMFoAHaE8?rs=1&pid=ImgDetMain",
+      "amenities": [
+        "Valet parking",
+        "Airport transfer"
+      ],
+      "description": "One of the best class hotel in moderate budget and the staff are good and polite. If need to stay in coimbatore Would recommend Park ELANza the best..",
+      "recentReview": "Great hotel with excellent service!",
+      "basePrice": 5841,
+      "email": "banquet@example.com",
+      "phone": "+91-9876543210"
+    },
+    {
+      "id": "2",
+      "name": "BirthDay Celebration",
+      "location": "Bangalore",
+      "rating": 3,
+      "reviewCount": 27697,
+      "image": "https://images.unsplash.com/photo-1531956531700-dc0ee0f1f9a5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "amenities": [
+        "Pool",
+        "Large Area Parking",
+        "Unique Celebrations"
+      ],
+      "description": "Join us for a joyous celebration as we mark another year of [Name]’s life! This special occasion is a time to come together with friends and family to celebrate, create memories, and enjoy the company of loved ones.",
+      "recentReview": "“The event was truly delightful! The venue was beautifully decorated",
+      "basePrice": 5000,
+      "email": "birthday@example.com",
+      "phone": "+91-8765432109"
+    },
+    {
+      "id": "1",
+      "name": "Weddings Ceremony",
+      "location": "Hyderabad",
+      "rating": 3.9,
+      "reviewCount": 7857,
+      "image": "https://media.istockphoto.com/id/866987706/photo/indian-wedding-hands.jpg?s=612x612&w=0&k=20&c=6L-u9qhFPv9MjDnF4UK4AqjVbDKM4_8Xad72IHhwPZE=",
+      "amenities": [
+        "Live band or DJ",
+        "Elegant lighting and drapery"
+      ],
+      "description": "The wedding ceremony took place at the elegant Grand Ballroom in the Rosewood Hotel, renowned for its luxurious ambiance and beautiful architectural details. The event was designed to create a memorable experience for both the couple and their guests.",
+      "recentReview": "Jessica R. praised the wedding ceremony for its stunning venue and flawless execution. She highlighted the exquisite decor and the memorable ambiance that made the day special for the couple and their guests.",
+      "basePrice": 4000,
+      "email": "weddings@example.com",
+      "phone": "+91-9876543211"
+    },
+    {
+      "id": "5",
+      "name": "House Warming",
+      "location": "Chennai",
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "https://i0.wp.com/decorsutrablog.com/wp-content/uploads/2020/06/Decorsutra_HomeBasedEvents_floraindiadesigns4-1.jpg?fit=1070%2C774&ssl=1",
+      "amenities": [
+        "Photography",
+        "Catering"
+      ],
+      "description": "Welcome to our Housewarming Function! We're thrilled to invite you to celebrate the warm and inviting atmosphere of our new home. This special occasion marks the beginning of a new chapter, and we look forward to sharing it with friends and family.",
+      "recentReview": "\"Attending the housewarming function was an absolute delight! The new home was beautifully decorated, and the atmosphere was incredibly warm and welcoming.\"",
+      "basePrice": 30001,
+      "email": "housewarming@example.com",
+      "phone": "+91-9876543212"
+    },
+    {
+      "id": "9",
+      "name": "Corporate Conference",
+      "location": "Mumbai",
+      "rating": 3.5,
+      "reviewCount": 79,
+      "image": "https://wallpapers.com/images/hd/corporate-event-999-x-526-wallpaper-i6lqdu6swt4el4af.jpg",
+      "amenities": [
+        "Audio/Visual Equipment",
+        "High-Speed Internet",
+        "Projector and Screen"
+      ],
+      "description": "Join us for a high-impact corporate conference where industry leaders will share insights and strategies for business growth. This event includes keynote speeches, panel discussions, and networking opportunities with professionals from various sectors.",
+      "recentReview": "he conference was incredibly well-organized with insightful sessions and valuable networking opportunities. Highly recommended for professionals looking to stay ahead in their industry.",
+      "basePrice": 50000,
+      "email": "manoat7575@gmail.com",
+      "phone": "9976537575"
+    },
+    {
+      "id": "1001",
+      "name": "Bady Shower",
+      "location": "Mumbai",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://th.bing.com/th/id/OIP.OvLRrykJnkN2Q9McfniRJwHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "amenities": [
+        "Photography",
+        "Catering"
+      ],
+      "description": "Good",
+      "recentReview": "Good",
+      "basePrice": 101,
+      "email": "manoat7575@gmail.com",
+      "phone": "9976537575"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "8531",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "5678-04-23",
+      "time": "14:34",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653757",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "9439",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "5679-04-23",
+      "time": "17:06",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653758",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "5906",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "4689-04-12",
+      "time": "12:56",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653759",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "debe",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "4569-03-12",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653760",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "7b51",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "13:04",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653761",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "3c4d",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-04",
+      "time": "16:56",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653762",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "c13e",
+      "organizer": {},
+      "name": "org",
+      "date": "5688-04-23",
+      "time": "17:07",
+      "address": "Cbe",
+      "phone": "+91-9997653763",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "org@example.com"
+    },
+    {
+      "id": "2b75",
+      "organizer": {},
+      "name": "Nitin",
+      "date": "2024-12-31",
+      "time": "01:00",
+      "address": "Father Randy Street",
+      "phone": "+91-9997653764",
+      "numberOfPeople": 500000,
+      "cost": 25000000,
+      "email": "nitin@example.com"
+    },
+    {
+      "id": "e387",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "2024-07-11",
+      "time": "07:01",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "+91-9997653765",
+      "numberOfPeople": 1,
+      "cost": 50,
+      "email": "mano@example.com"
+    },
+    {
+      "id": "b0a9",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "8909-07-06",
+      "time": "15:45",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "05e5",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "8beb",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "a275",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "23de",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "7c3a",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "93d2",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "32f1",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "fabe",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "abdc",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "947f",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "2f33",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "82be",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "7f77",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "6788-05-31",
+      "time": "15:06",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "5325",
+      "organizer": {},
+      "name": "MANO VIGNESH S",
+      "date": "2024-08-09",
+      "time": "07:08",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "2bcc",
+      "organizer": {},
+      "name": "mass jj",
+      "date": "6789-05-31",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "e7e0",
+      "organizer": {},
+      "name": "mass jj",
+      "date": "9797-08-07",
+      "time": "19:08",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "491b",
+      "organizer": {},
+      "name": "mass jj",
+      "date": "4556-03-12",
+      "time": "15:45",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "25b7",
+      "organizer": {},
+      "name": "mass jj",
+      "date": "6789-07-06",
+      "time": "18:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "09976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    },
+    {
+      "id": "4555",
+      "organizer": {},
+      "name": "mass jj",
+      "date": "7889-06-05",
+      "time": "06:07",
+      "address": "6/265.0.1  Gandhi Nagar ,Sirumugai  ,Mettupalayam",
+      "phone": "9976537575",
+      "numberOfPeople": 1,
+      "cost": 50
+    }
+  ]
+}

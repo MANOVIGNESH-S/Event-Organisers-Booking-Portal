@@ -1,0 +1,126 @@
+.booking-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover; /* Ensure the image covers the card */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff; /* Ensures the text is readable */
+  position: relative; /* Required for the overlay */
+}
+
+/* Optional: Add an overlay to improve text readability */
+.booking-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  border-radius: 10px;
+  z-index: 0; /* Make sure the overlay is behind the text */
+}
+
+.booking-info, .booking-actions {
+  position: relative;
+  z-index: 1; /* Make sure the text is above the overlay */
+}
+
+.bookings {
+  padding: 2rem;
+  color: #fff;
+}
+
+.bookings h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.bookings p {
+  font-size: 1.2rem;
+}
+
+.booking-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.booking-card p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.booking-card p strong {
+  font-weight: bold;
+}
+
+.bookings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bookings li {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.bookings li:last-child {
+  border-bottom: none;
+}
+
+.booking-info {
+  flex: 1;
+}
+
+.booking-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.chat-button, .pay-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  min-width: 150px; /* Ensure the buttons have the same size */
+  text-align: center; /* Center the text in the buttons */
+}
+
+.chat-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.chat-button:hover {
+  background-color: #45a049;
+}
+
+.pay-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.pay-button:hover {
+  background-color: #da190b;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

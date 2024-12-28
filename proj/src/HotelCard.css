@@ -1,0 +1,185 @@
+/* HotelCard.css */
+
+.hotel-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px; /* Fixed width */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.hotel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-card.enlarged {
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-card-image {
+  position: relative;
+}
+
+.hotel-card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hotel-card-content {
+  padding: 1rem;
+}
+
+.hotel-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hotel-location {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.hotel-stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.star {
+  color: #d4d4d4;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.star.filled {
+  color: #ffc107;
+}
+
+.review-count {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.hotel-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.amenity-tag {
+  background-color: var(--background-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.hotel-description {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.recent-review {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+/* Separator line */
+.separator {
+  border-bottom: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+.hotel-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.price-container {
+  text-align: right;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.price-per-night {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.book-now {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #b3941f;
+}
+
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #d4af37;
+  --text-color: #333;
+}
+
+.dashboard {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 2rem;
+  position: relative;
+  background-color: var(--background-color);
+}
+
+.dashboard h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.hotel-grid {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  gap: 2rem; /* Space between cards */
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}

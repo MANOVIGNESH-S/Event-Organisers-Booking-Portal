@@ -1,0 +1,126 @@
+/* Payment.css */
+
+.ant-payment-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f9fc;
+  position: relative;
+  padding: 1rem;
+}
+
+.ant-payment-card {
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.ant-payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ant-payment-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.ant-payment-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.ant-payment-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ant-payment-button:hover {
+  background-color: #3a7bc8;
+  transform: translateY(-1px);
+}
+
+.ant-payment-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.4);
+}
+
+.ant-payment-method-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.ant-payment-method-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ant-payment-password-dialog {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.ant-payment-success-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #48bb78;
+  color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: ant-payment-slide-in 0.3s ease-out;
+}
+
+.ant-payment-error {
+  color: red;
+  font-size: 0.875rem;
+}
+
+@keyframes ant-payment-slide-in {
+  from {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .ant-payment-card {
+      max-width: 100%;
+      margin: 1rem;
+  }
+
+  .ant-payment-method-group {
+      grid-template-columns: 1fr;
+  }
+}
